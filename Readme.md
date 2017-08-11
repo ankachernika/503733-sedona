@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anka Chernika](https://up.htmlacademy.ru/htmlcss/18/user/503733).
-* Наставник: `Неизвестно`.
+* Наставник: [Малик Киров](https://htmlacademy.ru/profile/id506857).
 
 ---
 
