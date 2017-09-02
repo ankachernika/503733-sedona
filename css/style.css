@@ -52,3 +52,130 @@ body {
   top: 1085.101px;
   z-index: 65;
 }
+
+.feature-1 h3 {
+  width: 281px;
+	height: 146px;
+	font-family: PTSans;
+  font-size: 21px;
+	font-weight: bold;
+	line-height: 1.0;
+  text-align: center;
+	color: #ffffff;
+}
+
+.feature-1 p {
+  width: 281px;
+	height: 146px;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.feature-2 h3 {
+  width: 302px;
+	height: 142px;
+	font-family: PTSans;
+  font-size: 21px;
+	font-weight: bold;
+	line-height: 1.0;
+  text-align: center;
+	color: #ffffff;
+}
+
+.feature-2 p {
+  width: 302px;
+	height: 142px;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.advantages-items h3 {
+  width: 252px;
+	height: 81px;
+	font-family: PTSans;
+  font-size: 21px;
+	font-weight: bold;
+	line-height: 1.0;
+	color: #000000;
+  text-align: center;
+}
+
+.advantages-items div {
+  width: 252px;
+	height: 81px;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #333333;
+}
+
+.grey h3 {
+  width: 208px;
+	height: 143px;
+	font-family: PTSans;
+  font-size: 21px;
+	font-weight: bold;
+	line-height: 1.0;
+	color: #000000;
+	color: var(--black);
+  text-align: center;
+}
+
+.grey p {
+  width: 208px;
+	height: 143px;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #333333;
+}
+
+.serchform b {
+  width: 434px;
+	height: 96px;
+	font-family: PTSans;
+  font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #000000;
+	color: var(--black);
+  text-align: center;
+}
+
+.searchform p {
+  width: 434px;
+	height: 96px;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: center;
+	color: #333333;
+}
