@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>City of Sedona </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
@@ -60,8 +63,8 @@
           <fieldset>
             <legend>Стоимость в сутки (Р):</legend>
             <div>
-               <input type="number"> (от 0)
-               <input type="number"> (до 3000)
+               <input class="min-cost" type="text"> (от 0)
+               <input class="max-cost" type="text"> (до 3000)
             </div>
             <div class="inputSlider"></div>
           </fieldset>
@@ -90,7 +93,7 @@
         <article class="hotel hotel-1">
           <h2>Amara Resort & Spa</h2>
           <a href="amara-resort.html">
-            <img class="hotel-image" src="#" width="135" height="90" alt="Amara Resort & Spa image">
+            <img class="hotel-image" src="img/AmaraResort.jpg" width="135" height="90" alt="Amara Resort & Spa image">
           </a>
           <div class="housing-type">Гостиница</div>
           <div class="pricing">ОТ 4000 Р.</div>
@@ -111,7 +114,7 @@
         <article class="hotel hotel-2">
           <h2>Desert Quail Inn</h2>
           <a href="Desert-quail.html">
-            <img class="hotel-image" src="#" width="135" height="90" alt="Desert Quail Inn image">
+            <img class="hotel-image" src="img/DesertQuail.jpg" width="135" height="90" alt="Desert Quail Inn image">
           </a>
           <div class="housing-type">Мотель</div>
           <div class="pricing">ОТ 3000 Р.</div>
@@ -131,7 +134,7 @@
         <article class="hotel hotel-3">
           <h2>Villas at Poco Diablo</h2>
           <a href="villas-at-poco.html">
-            <img class="hotel-image" src="#" width="135" height="90" alt="Villas at Poco Diablo image">
+            <img class="hotel-image" src="img/VillasAtPoco.jpg" width="135" height="90" alt="Villas at Poco Diablo image">
           </a>
           <div class="housing-type">Апартаменты</div>
           <div class="pricing">ОТ 2000 Р.</div>
@@ -160,6 +163,6 @@
       </section>
       <div class="footer-copyright">
         <div>WEBSITE by</div>
-        <a class="button" href="https://htmlacademy.ru"><img src="#" width="115" height="41" alt="Логотип html academy"></a>
+        <a class="button" href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy"></a>
       </div>
     </footer>
