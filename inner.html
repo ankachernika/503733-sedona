@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
        <nav class="main-navigation">
        <ul class="site-navigation">
@@ -17,7 +17,7 @@
           <img src="img/Логотип.png" width="138" height="70" alt="Логотип Седона"></a>
           </li>
         <li><a href="price.html">Карта штата</a></li>
-        <li class="site-navigation-current"><a href="catalog.html">Гостиницы</a></li>
+        <li class="site-navigation-current"><a href="inner.html">Гостиницы</a></li>
       </ul>
        </nav>
     </header>
@@ -73,8 +73,9 @@
       </section>
 
       <section class="sort">
-        <div><b>Найдено: 3</b></div>
-        <div> Сортировка:
+        <div class="found"><b>Найдено: 3</b></div>
+        <div class="sorting"> Сортировка:</div>
+        <div class="sort-by">
           <div class="sort-current"><a href="#">По цене</a></div>
           <div><a href="#">По типу</a></div>
           <div><a href="#">По рейтингу</a></div>
@@ -104,7 +105,7 @@
                 <img class="star-3" src="#" width="18" height="17" alt="рейтинг звезда 3">
                   <img class="star-4" src="#" width="18" height="17" alt="рейтинг звезда 4">
           </div>
-          <div>Рейтинг: 8,5</div>
+          <div class="value">Рейтинг: 8,5</div>
         </section>
           <p>
             <a class="button details" href="#">подробнее</a>
@@ -124,7 +125,7 @@
               <img class="star-2" src="#" width="18" height="17" alt="рейтинг звезда 2">
                 <img class="star-3" src="#" width="18" height="17" alt="рейтинг звезда 3">
           </div>
-          <div>Рейтинг: 8,9</div>
+          <div class="value">Рейтинг: 8,9</div>
         </section>
           <p>
             <a class="button details" href="#">подробнее</a>
@@ -143,8 +144,8 @@
             <img class="star-1" src="#" width="18" height="17" alt="рейтинг звезда 1">
               <img class="star-2" src="#" width="18" height="17" alt="рейтинг звезда 2">
           </div>
-          <div>Рейтинг: 9,2</div>
-          <section>
+          <div class="value">Рейтинг: 9,2</div>
+        </section>
           <p>
             <a class="button details" href="#">подробнее</a>
             <a class="button book" href="#">забронировать</a>
@@ -156,9 +157,9 @@
       <div calss="uppercase">#visitSEDONA</div>
       <section class="footer-social">
         <ul>
-          <li><a class="social-button" href="#" title="Вконтакте">Вконтакте</a></li>
-          <li><a class="social-button" href="#" title="Фейсбук">Фейсбук</a></li>
-          <li><a class="social-button" href="#" title="Инстаграм">Инстаграм</a></li>
+          <li><a class="social-button" href="#" title="Вконтакте"><span class="visually-hidden">Вконтакте</span></a></li>
+          <li><a class="social-button" href="#" title="Фейсбук"><span class="visually-hidden">Фейсбук</span></a></li>
+          <li><a class="social-button" href="#" title="Инстаграм"><span class="visually-hidden">Инстаграм</span></a></li>
         </ul>
       </section>
       <div class="footer-copyright">
