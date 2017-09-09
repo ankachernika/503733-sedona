@@ -13,16 +13,44 @@ a {
   text-decoration: none;
 }
 
+.container {
+    position: relative;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
-  font-weight: bold;
   text-transform: uppercase;
+  display: flex;
+  margin: 0;
+  padding-bottom: 17px;
 }
 
+.main-navigation-logo {
+    order: 3
+    top: 0;
+    left: 50%;
+}
+.information {
+  order:1;
+}
+
+.photo-video {
+  order:2;
+}
 .site-navigation {
+  width: 1200px;
+  min-height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
+  margin-top: auto;
 }
 
 .site-navigation a {
@@ -37,12 +65,30 @@ a {
   color:#766357;
 }
 
-.content {
+.content-entry {
+  padding: 50px 0;
   text-align: center;
 }
 
+.content-entry .quote {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.reasons {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #333333;
+}
+
+
 .features {
+  display:flex;
+  width: 400px;
+  min-height: 256px;
   text-align: center;
+  flex-direction: column;
 }
 
 .features h3 {
@@ -50,9 +96,36 @@ a {
   line-height: 21px;
 }
 
-.blue {
+.feature-1 {
+  display: flex;
+  width: 1200px;
+}
+
+.blue-item {
   color: #ffffff;
   background-color: #81b3d2;
+  justify-content: center;
+}
+
+.description-image {
+  width: 800px;
+  height: 256px;
+
+}
+
+.advantages-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  min-height: 195px;
+}
+
+.advantages {
+  width: 400px;
+
+  min-height: 195px;
+
 }
 
 .grey {
@@ -66,6 +139,11 @@ a {
 	color: #333333;
 }
 
+.features .grey {
+  width: 400px;
+
+  min-height: 167px;
+}
 .searchform {
   text-align: center;
 }
@@ -74,6 +152,7 @@ a {
   font-size: 30px;
   line-height: 36px;
 }
+
 .select-date {
   color: #333333;
   font-size: 14px;
@@ -131,11 +210,22 @@ a {
 }
 
 .main-footer {
+  display: flex;
   background-color:  #ffffff;
   background-image: url("img/footer-background.jpg");
+  padding: 60px 0;
+  margin-top: 65px;
+
+  min-height: 180px;
+}
+
+.footer-hashtag {
+  width: 400px;
+  margin: 0;
 }
 
 .footer-social {
+  width: 400px;
   text-align: center;
 }
 
@@ -148,7 +238,8 @@ a {
 }
 
 .footer-copyright {
-  text-align: center;
+  width: 400px;
+  margin: 0;
 }
 
 .footer-copyright img:hover, img:focus {
@@ -158,6 +249,11 @@ a {
 .footer-copyright img:active {
   color: #d5d5d5;
 }
+
+
+
+
+
 
 .site-navigation-current a {
   color: #766357;
